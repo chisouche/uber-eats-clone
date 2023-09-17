@@ -1,0 +1,23 @@
+
+.section1 {
+  /* landing page background image */
+  background-position: center;
+  max-width: 100%;
+  padding: 100px;
+  text-align: center;
+}
+
+/* Section2.css */
+
+.section2 {
+  background-color: #f0f0f0; /* Background color for Section 2 */
+  padding: 100px;
+  text-align: center;
+  height: 100vh;
+  
+}
+
+
+
+
+
