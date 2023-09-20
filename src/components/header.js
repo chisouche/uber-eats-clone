@@ -58,6 +58,7 @@ const Header = () => {
       </div>
     </div>
 
+    {/* sidebar  */}
     <div className={`overlay ${sidebarOpen ? 'active' : ''}`} onClick={toggleSidebar}>
         <aside className= {` side_content sidebar ${sidebarOpen ? 'open' : ''}`}>
           <nav>
@@ -126,12 +127,10 @@ const Header = () => {
           </nav>
         </aside>
         
-    </div>
-
-
     
-   
-
+    
+    
+    </div>
   </header>
   );
 }

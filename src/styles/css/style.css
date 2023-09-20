@@ -1,23 +1,24 @@
 
-.section1 {
-  /* landing page background image */
-  background-position: center;
-  max-width: 100%;
-  padding: 100px;
-  text-align: center;
+/* footer */
+.footer_c{
+  border-top: 1px solid #E2E2E2; 
+  margin-top: 80px;
+  padding: 72px 0px 88px;
+  background-color: #FFFFFF;
+
 }
 
-/* Section2.css */
-
-.section2 {
-  background-color: #f0f0f0; /* Background color for Section 2 */
-  padding: 100px;
-  text-align: center;
-  height: 100vh;
-  
+.one_f{
+  padding: 0 40px;
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 1024px;
+  box-sizing: border-box;
+  height:361px;
 }
 
-
-
-
-
+.two_f{
+  display: flex;
+  height:224px;
+  width: 1212px;
+}
