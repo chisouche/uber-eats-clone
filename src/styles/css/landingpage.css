@@ -34,7 +34,7 @@
     left: 0;
     top: 0;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .sec1_contents{
@@ -388,7 +388,8 @@ position: absolute;
     min-width: 1024px;
     max-width: 1920px;
     box-sizing: border-box;
-    display: flex;
+    display: block;
+    width: 100%;
 }
 
 .text_one{
@@ -397,7 +398,7 @@ position: absolute;
     justify-content: space-between;
     -webkit-box-align: end;
     align-items: flex-end;
-    width: 1212px;
+    width: 100%;
 }
 
 .cities_near_me{
@@ -420,7 +421,7 @@ font-weight: 700;
 
 .map_n{
 margin: 24px 0px;
-width:1212px;
+width:100%;
 }
 
 

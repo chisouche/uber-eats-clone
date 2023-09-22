@@ -1,12 +1,15 @@
 // Header.js
 
 import React, {useState} from 'react';
+
 import '../styles/css/header.css'; // Import the CSS file for styling
 
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+
   const toggleSidebar = () => {
+   
     setSidebarOpen(!sidebarOpen);
   };
 

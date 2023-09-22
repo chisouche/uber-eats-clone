@@ -13,25 +13,26 @@
   }
 
 
-.nav-bar{
-    position: relative;
-    padding: 0 40px;
-    margin: 0 auto;
-    flex-direction: row;
-    display: flex;
-    box-sizing: border-box;
-    height: 96px;
-    color: #000000;
-    z-index: 1;
-    left: 0;
-    top:0;
-    min-width: 1024px;
-    max-width: 1920px;
+   .nav-bar{
+      position: relative;
+      padding: 0 40px;
+      margin: 0 auto;
+      flex-direction: row;
+      display: flex;
+      box-sizing: border-box;
+      height: 96px;
+      color: #000000;
+      z-index: 1;
+      left: 0;
+      top:0;
+      min-width: 1024px;
+      max-width: 1920px;
+      cursor: pointer;
 
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
 
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -211,7 +212,7 @@ a.sign_up{
    opacity: 0; /* Initially hidden */
    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
 
-   z-index: 6;
+   z-index: 1000;
    left: 0;
    top: 0;
    position: fixed;
