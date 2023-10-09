@@ -22,3 +22,10 @@
   height:224px;
   width: 1212px;
 }
+
+.header_nav.App{
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+ background: #555;
+}

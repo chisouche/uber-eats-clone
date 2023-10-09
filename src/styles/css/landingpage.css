@@ -1,5 +1,7 @@
 .App{
     display: block;
+    overflow: auto;
+    position: relative;
 }
 
 /* Section one styles */
@@ -28,13 +30,14 @@
 .section1_content{
     bottom: 0;
     right: 0;
-    /* -webkit-box-align: center; */
+    width: 100%;
+    -webkit-box-align: center;
     align-items: center;
     color: #000000;
     left: 0;
     top: 0;
     display: flex;
-    /* position: absolute; */
+
 }
 
 .sec1_contents{
@@ -50,7 +53,7 @@
 
 
 .order_text{
-    max-width: 60%;
+    max-width: 70%;
     margin-bottom: 40px;
     font-family: UberMove, sans-serif;
     font-weight: 700;
@@ -80,7 +83,8 @@
     display: flex;
     max-width: 540px;
     height: 56px;
-    position: relative;
+    min-width: 500px;
+    /* position: relative; */
     color: #000000;
     flex-basis: 0%;
     flex-direction: column;
@@ -88,6 +92,7 @@
     flex-shrink: 1;
     text-size-adjust: 100%;
     font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 
 .label_add{
@@ -100,12 +105,10 @@
     width: 1px;
     height: 1px;
     text-size-adjust:100%;
+   
 }
 
-.du{
-    min-width: 500px;
-    height: 56px;
-}
+  
 
 .ak_add{
 line-height: 24px;
@@ -116,7 +119,7 @@ color: #000000;
 background-color: #ffffff;
 border: none;
 display: flex;
-position: relative;
+/* position: relative; */
 min-width: 100%;
 padding: 8px 16px;
 box-sizing: border-box;
@@ -183,13 +186,12 @@ input.in_add{
 
 
 /* Deliver button styles */
-.deli_t{
-    position: relative;
-}
+
 .b_cl{
+    /* position: relative; */
     height: 56px;
-    box-shadow: inset 0px -1px 0px #EEEEEE;
     background: #ffffff;
+   
 
 }
 
@@ -199,6 +201,8 @@ input.in_add{
     width: 100%;
     -webkit-box-align: center;
     align-items: center;
+    /* position: relative; */
+    box-shadow: inset 0px -1px 0px #EEEEEE;
     display: flex;
 }
 
@@ -321,7 +325,6 @@ display: flex;
 flex-wrap: nowrap;
 font-family:UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 width: 100%;
-
 margin-bottom: -24px;
 margin-right: -12px;
 margin-left: -12px;
@@ -336,6 +339,8 @@ margin-left: -12px;
     flex: none;
     margin-bottom: 24px;
     box-sizing: border-box;
+    z-index: -1;
+
 }
 
 .link_grid{
