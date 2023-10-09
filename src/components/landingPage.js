@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/css/landingpage.css'
+import '../styles/css/style.css'
 import Header from './header';
 import Footer from './footer';
 
@@ -13,7 +14,7 @@ const LandingPage = () => {
           <div className="mid_d ">
         
 
-        {/* main section page (First section with image background*/}
+          {/* main section page (First section with image background*/}
 
             <div className='section1_content'>
               <div className='sec1_contents'>
@@ -23,10 +24,11 @@ const LandingPage = () => {
                 <div className="form_fill">
 
                   {/* Enter address column */}
+                
                   <div className="in_address">
                     <label id="location-typeahead-home-label" htmlFor="location-typeahead-home-input" className="label_add">Enter delivery address</label>
-                    
-                    <div className="du">
+      
+                 
                       <div className="ak_add">
                           <div className="el_add">
                             <div className="location_add">
@@ -43,17 +45,16 @@ const LandingPage = () => {
                           <div className="spacer _8"></div>
 
                       </div>
-                    </div>
+
 
                     <ul id="location-typeahead-home-menu" role="listbox" aria-labelledby="location-typeahead-home-label" className="location_list">
                     </ul>
 
                   </div>
-
+                
                   <div className="spacer _8"></div>
 
-                  <div>
-                    <div className="deli_t">
+              {/* Deliver time option */}
                       <div role="button" className="b_cl">
                         <div className="dl_2"> 
 
@@ -86,8 +87,8 @@ const LandingPage = () => {
 
                         </div>
                       </div> 
-                  </div>
-                  </div>
+
+              
 
                   <div className="spacer _8"></div>
 
@@ -137,7 +138,7 @@ const LandingPage = () => {
             </div>
 
               {/* grid image two */}
-            <div className='grid'>
+            <div className='grid' >
             <a href="//www.uber.com/business/eats" className="link_grid">
               <div className="nt">
                 <div className="lazyload-wrapper ">

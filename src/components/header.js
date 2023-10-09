@@ -2,6 +2,8 @@
 
 import React, {useState} from 'react';
 
+import '../styles/css/style.css'
+
 import '../styles/css/header.css'; // Import the CSS file for styling
 
 const Header = () => {
@@ -9,7 +11,6 @@ const Header = () => {
 
 
   const toggleSidebar = () => {
-   
     setSidebarOpen(!sidebarOpen);
   };
 
@@ -90,7 +91,7 @@ const Header = () => {
               </div>
             
               <div className='side_b'>
-                <div className='bottonBar'>
+                <div className='bottomBar'>
                   <img alt="Uber Eats" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/31ee382bd0e6ed84.svg" className="ub_sidebar"/>
                   <div className="spacer _16"></div>
                   <p className='pd_sidebar'> There's more to love in the app.</p>
