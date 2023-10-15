@@ -11,7 +11,6 @@ const LandingPage = () => {
 
           {/* backgroundimage for section one */}
         <div className="sec_one">
-          <div className="mid_d ">
         
 
           {/* main section page (First section with image background*/}
@@ -55,38 +54,38 @@ const LandingPage = () => {
                   <div className="spacer _8"></div>
 
               {/* Deliver time option */}
-                      <div role="button" className="b_cl">
-                        <div className="dl_2"> 
+                  <div role="button" className="dl_2"> 
 
-                          <div className="spacer _4"></div>
+                    <div className="spacer _4"></div>
 
-                            {/* Colum2 for deliver button option */}
-                            
-                          <div className="dl_3">
-                            <div className="dl_4">
-                              <div className="dl_5">
-                                <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
-                                  <path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path>
-                                </svg>  
-                              </div>
-                            </div>
-                          </div>
-                          
-                          <div className="dl_6">
-                            <div className="dl_7 ">Deliver now</div>
-                            <div className="spacer _4"></div>
-                            
-                            <div className="dl_8">
-                              <div className="dl_9">
-                                <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                                <path d="M17 11.7494V14.916L12 11.0827L7 14.916V11.7494L12 7.91602L17 11.7494Z" fill="#000000" transform="rotate(180, 12, 12)"></path>
-                                </svg>
-                              </div>
-                            </div>
-                          </div>
-
+                      {/* Colum2 for deliver button option */}
+                      
+                    {/* for the timer icon svg */}
+                    <div className='dl_3'>
+                      <div className="dl_4">
+                        <div className="dl_5">
+                          <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false">
+                            <path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path>
+                          </svg>  
                         </div>
-                      </div> 
+                      </div>
+                    </div>
+                    
+                    <div >
+                      <select className='dl_6'>
+                        
+                        <option value="0" className=" ">Deliver now </option>
+                        <option value="1" className=" ">Pick time</option>
+
+                      </select>
+
+
+                      
+
+                    </div>
+
+                  </div>
+                      
 
               
 
@@ -101,7 +100,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </div>
-          </div>
+
         </div>
 
 

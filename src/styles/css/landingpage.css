@@ -1,30 +1,26 @@
 .App{
     display: block;
-    overflow: auto;
     position: relative;
 }
-
+ 
+* {
+    box-sizing: border-box;
+  }
 /* Section one styles */
 
 .sec_one{
     height: 100vh;
     background-color: #F2CA2F;
-    overflow: hidden;
     display:flex;
     color:rgb(0, 0, 0);
     width: 100%;
-}
-
-.mid_d{
-    display: flex;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../assets/images/landingpage_photo.jpg');
 }
+
+
 
 /* Section 1 content styles */
 .section1_content{
@@ -47,7 +43,6 @@
     margin: 0 auto;
     min-width: 1024px;
     max-width: 1920px;
-    box-sizing: border-box;
     color: #000000;
 }
 
@@ -101,7 +96,6 @@
     margin: -1px;
     white-space: nowrap;
     clip: rect(1px, 1px, 1px, 1px);
-    overflow: hidden;
     width: 1px;
     height: 1px;
     text-size-adjust:100%;
@@ -122,7 +116,7 @@ display: flex;
 /* position: relative; */
 min-width: 100%;
 padding: 8px 16px;
-box-sizing: border-box;
+
 
 box-shadow: inset 0px -1px 0px #EEEEEE;
 transition: box-shadow 0.3s ease-in-out;
@@ -187,94 +181,72 @@ input.in_add{
 
 /* Deliver button styles */
 
-.b_cl{
-    /* position: relative; */
-    height: 56px;
-    background: #ffffff;
-   
-
-}
 
 .dl_2{
+    position: relative;
     height: 56px;
     background: #ffffff;
-    width: 100%;
     -webkit-box-align: center;
     align-items: center;
-    /* position: relative; */
     box-shadow: inset 0px -1px 0px #EEEEEE;
     display: flex;
 }
 
+
+
 .dl_3{
-    flex-shrink: 0;
-    display: flex; 
+
+  
+    
 }
 
 .dl_4{
-    height: 48%;
+    height: 48px;
     width: 48px;
-
-    -webkit-box-pack: center;
+  
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     display: flex;
 
 }
 
 .dl_5{
-    line-height: 1;
-    width: 24px;
     height: 24px;
+    display: block;
 
 }
 
-.dl_6{
-    height: 100%;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    overflow: hidden;
-    display: flex;
-}
+select {
 
-.dl_7{
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-    line-height: 20px;
-    font-size: 18px;
-    overflow: hidden;
+    /* styling */
+   
+    border:none;
+
+    display: inline-block;
+    font: 16px;
     font-weight: 500;
-    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    display: flex;
-    color: #000000;
-}
-
-.dl_8{
-height: 48px;
-width: 48px;
--webkit-box-pack: center;
-justify-content: center;
--webkit-box-align: center;
-align-items: center;
-display: flex;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    margin:0;
+  
+    /* reset */
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+  }
 
 
+ 
 
-}
+  select.dl_6:focus {
+    
+    border: none;
+  }
 
-.dl_9{
-    line-height: 1;
-    width: 24px;
-    height: 24px;
-}
+
+
 
 .fd_1{
     border-radius: 8px;
@@ -286,7 +258,6 @@ display: flex;
     font-weight: 500;
     font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
-    box-sizing: border-box;
     background:#000000;
     color: white;
     padding: 12px 16px;
@@ -319,7 +290,6 @@ display: flex;
 }
 
 .sec_two{
-box-sizing: border-box;
 color: #000000;
 display: flex;
 flex-wrap: nowrap;
@@ -338,7 +308,6 @@ margin-left: -12px;
     display: block;
     flex: none;
     margin-bottom: 24px;
-    box-sizing: border-box;
     z-index: -1;
 
 }
@@ -392,7 +361,6 @@ position: absolute;
     margin: 0 auto;
     min-width: 1024px;
     max-width: 1920px;
-    box-sizing: border-box;
     display: block;
     width: 100%;
 }
@@ -441,7 +409,6 @@ width:100%;
 
 .map_p{
     display: flex;
-    overflow: hidden;
     height: 50vh;
 
     background-size: cover;
